@@ -25,6 +25,7 @@ public class CasosDePruebaDriven {
     private final String url = PropertiesDriven.getProperty("url");
     private ArrayList<String> data; // null
     private ArrayList<String> data2;
+    private String prueba;
 
     @BeforeMethod
     public void preparacionTests(){
